@@ -27,5 +27,5 @@ prefixDefinitions = [
   { prefix: '-o3', handler: handleOption3 },
 ];
 
-parseCommandLineArguments(prefixDefinitions);
+console.log(parseCommandLineArguments(prefixDefinitions));
 

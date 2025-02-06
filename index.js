@@ -104,7 +104,4 @@ function parseCommandLineArguments(prefixDefinitions) {
   return options;
 }
 
-
 module.exports = parseCommandLineArguments;
-
-
