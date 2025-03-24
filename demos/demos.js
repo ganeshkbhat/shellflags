@@ -7,14 +7,11 @@ function handlePort(port) {
 }
 
 var prefixDefinitions = [
-  { prefix: "-p", handler: "portHandler" }, // Use string for handler path
+  { prefix: "-p", handler: "./demos/portHandler" }, // Use string for handler path
   { prefix: "--port", handler: handlePort }, // Use function directly
 ];
 
-parseCommandLineArguments(prefixDefinitions);
-
-// // main.js
-// const parseCommandLineArguments = require('./argumentParser');
+console.log("parseCommandLineArguments(prefixDefinitions): ", parseCommandLineArguments(prefixDefinitions));
 
 function handleOption3(value) {
   console.log("Value handler3: ", value);
@@ -27,5 +24,5 @@ prefixDefinitions = [
   { prefix: '-o3', handler: handleOption3 },
 ];
 
-console.log(parseCommandLineArguments(prefixDefinitions));
+console.log("parseCommandLineArguments(prefixDefinitions): ", parseCommandLineArguments(prefixDefinitions));
 
