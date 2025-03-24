@@ -20,6 +20,10 @@ var prefixDefinitions = [
 
 console.log("parseCommandLineArguments(prefixDefinitions): ", parseCommandLineArguments(prefixDefinitions));
 
+// // OUTPUT
+// Starting server on port: 3443
+// parseCommandLineArguments(prefixDefinitions):  { '-p': '3443' }
+
 function handleOption3(value) {
   console.log("Value handler3: ", value);
   return `Option 3 handled with value: ${value}`;
@@ -32,5 +36,9 @@ prefixDefinitions = [
 ];
 
 console.log("parseCommandLineArguments(prefixDefinitions): ", parseCommandLineArguments(prefixDefinitions));
+
+// // OUTPUT
+// Value handler1:  test
+// parseCommandLineArguments(prefixDefinitions):  { '-o1': 'test' }
 
 ```
