@@ -1,6 +1,6 @@
 {
   "name": "shellflags",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "create shell command line flags, their parsers, and it's appropriate manager easily with a predefined object definition",
   "main": "./src/index.js",
   "directories": {
