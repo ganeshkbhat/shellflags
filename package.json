@@ -9,8 +9,17 @@
   "scripts": {
     "test": "mocha --reporter spec --recursive"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "parse", "shell", "command line", "flags"
+  ],
+  "author": {
+    "name": "Ganesh",
+    "email": "desktopcgi@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ganeshkbhat/shellflags.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "chai": "^5.1.2",
