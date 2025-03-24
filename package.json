@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "demo": "node ./demos/demos.js",
+    "demo": "node ./demos/demos.js -p 3443 -o1 test",
     "test": "mocha --reporter spec --recursive"
   },
   "keywords": [

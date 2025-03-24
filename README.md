@@ -4,6 +4,8 @@ create shell command line flags, their parsers, and it's appropriate manager eas
 you can find [demos here](https://github.com/ganeshkbhat/shellflags/tree/main/demos)
 
 
+run `npm run demo` to run the same demo below
+
 ```
 
 const parseCommandLineArguments = require("shellflags");
@@ -39,6 +41,6 @@ console.log("parseCommandLineArguments(prefixDefinitions): ", parseCommandLineAr
 
 // // OUTPUT
 // Value handler1:  test
-// parseCommandLineArguments(prefixDefinitions):  { '-o1': 'test' }
+// parseCommandLineArguments(prefixDefinitions):  { 'c': 'test' }
 
 ```
