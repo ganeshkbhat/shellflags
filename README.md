@@ -10,9 +10,11 @@ run `npm run demo` to run the same demo below
 
 const parseCommandLineArguments = require("shellflags");
 
+// do your data modification here
 function handlePort(port) {
   console.log(`Starting server on port: ${port}`);
   // ... your server logic ...
+  return port;
 }
 
 var prefixDefinitions = [
